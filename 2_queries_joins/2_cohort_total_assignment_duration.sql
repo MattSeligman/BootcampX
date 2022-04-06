@@ -16,4 +16,3 @@ WHERE cohorts.name = 'FEB12';
 -- students (id, name, email, phone, github, start_date, end_date, cohort_id)
 -- cohorts (id, name, start_date, end_date)
 -- assignment_submissions (id, assignment_id, student_id, submission_date, duration)
--- assignments (id, name, content, duration, day, chapter)

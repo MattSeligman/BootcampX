@@ -10,4 +10,3 @@ WHERE students.name = 'Ibrahim Schimmel';
 
 -- students (id, name, email, phone, github, start_date, end_date, cohort_id)
 -- assignment_submissions (id, assignment_id, student_id, submission_date, duration)
--- assignments (id, name, content, duration, day, chapter)
