@@ -8,7 +8,6 @@ const pool = new Pool({
 });
 
 const cohortName = process.argv[2];
-const limit = process.argv[3] || 5;
 // Store all potentially malicious values in an array.
 const values = [`%${cohortName}%`];
 
@@ -25,5 +24,5 @@ const queryString = `
 pool.query(queryString, values).then(res => {
   res.rows.forEach(row => {
     console.log(`${row.cohort}: ${row.teacher}`);
-  })
+  });
 });
